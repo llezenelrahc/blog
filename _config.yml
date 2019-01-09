@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: llezenelrahc.github.io
 subtitle:
-description:
+description: love,life,technology,food
 keywords:
-author: John Doe
-language:
-timezone:
+author: Z.W
+language: en
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'https://llezenelrahc.github.io/child' and root as '/child/'
 url: https://llezenelrahc.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :category/:year/:title/
 permalink_defaults:
 
 # Directory
@@ -33,9 +33,9 @@ new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
-filename_case: 0
+filename_case: 1
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +81,13 @@ deploy:
   type: git
   repo: git@github.com:llezenelrahc/llezenelrahc.github.io.git
   branch: master
+
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: /uploads/wx.png
+alipay: /uploads/zfb.jpg
+
+algolia:
+  applicationID: 'CVSJCQAI1P'
+  indexName: 'charlenezell'
+  chunkSize: 5000
+  apiKey: 'a8bdc7240c22cf9c9aa392de91266e2d'
