@@ -13,8 +13,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'https://llezenelrahc.github.io/child' and root as '/child/'
-url: https://llezenelrahc.github.io
-root: /
+url: https://llezenelrahc.github.io/blog
+root: /blog/
 permalink: :category/:year/:title/
 permalink_defaults:
 
